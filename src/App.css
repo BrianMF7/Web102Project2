@@ -1,0 +1,62 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Navbar styling */
+.nav {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #fecc36;
+}

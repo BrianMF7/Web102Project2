@@ -1,14 +1,14 @@
 import './App.css' 
 import React from 'react'
 import Nav from './Nav.jsx'
+import CardContainer from './CardContainer.jsx'
 
 function App() {
   return (
-    <div className="app-container">
+    <div className="appContainer">
       <Nav />
       <main className="content">
-        <h1>Welcome to Real Madrid Trivia</h1>
-        <p>Test your knowledge about the greatest football club in the world!</p>
+        <CardContainer />
       </main>
     </div>
   )

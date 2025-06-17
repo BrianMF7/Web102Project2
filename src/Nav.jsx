@@ -5,7 +5,7 @@ function Nav() {
     return (
         <nav className="nav">
             <ul>
-                <li><a href="#">Real Madrid Trivia</a></li>
+                <li><a>Real Madrid Trivia</a></li>
             </ul>
         </nav>
     );

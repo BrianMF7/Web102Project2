@@ -14,9 +14,6 @@ const FlashCard = ({ question, answer, image, difficulty, isFlipped, onFlip }) =
             <div className="flashcardBack">
                 <p className="answer">{answer}</p>
                 {image && <img src={image} alt="Card visual" className="cardImage" />}
-            </div>
-        </div>
-    );
-};
+            </div></div>);};
 
 export default FlashCard;
